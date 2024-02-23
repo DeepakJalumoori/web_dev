@@ -1,0 +1,63 @@
+*{
+    font-family: 'Courier New', Courier, monospace ;
+}
+h3{
+    color: purple;
+}
+h1{
+    color: #b92b27;
+}
+#login {
+    background-color: white;
+
+}
+#signup {
+    background-color: #b92b27;
+    color:white ;
+}
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+/* descendent selector */
+p a{
+    color: purple;
+    background-color: yellow;
+}
+nav ul li{
+    color: black;
+} 
+nav ul li a {
+    color: pink;
+}
+p+h3{
+    text-decoration: underline;
+}
+.upvote+button{
+    background-color: blueviolet;
+}
+
+/* CHILD COMBINATOR,DISADVANTAGE:it can apply to next step only.it cannot go further,
+instead of this we can use descendent selector*/
+div>input {
+    background-color: salmon;
+}
+/* Attribute seletor */
+input[type="text"] {
+    color: red;
+}
+input[type="password"] {
+    color: green;
+}
+/* PSEUDO CLASS */ 
+button:hover {
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: none;
+}
+button:active {
+    background-color: pink;
+    color: black;
+}

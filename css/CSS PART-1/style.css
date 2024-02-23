@@ -1,0 +1,20 @@
+* {
+    background-color: wheat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#poem {
+    text-align: center;
+    color: brown;
+   line-height: 30px;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+h3 {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: green;
+}

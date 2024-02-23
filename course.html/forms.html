@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/action">
+        <div>
+            <label for="username">username</label>
+            <input type="text" id="username" placeholder="Enter username" name="username   "/>
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" id="password" placeholder="Enter password" />
+        </div>
+        <button type="submit" value="click me">click me</button>
+    </form>
+    <hr>
+    <form action="https://www.youtube.com/results">
+        <label for="search">Youtube</label>
+        <input type="text" id="search" placeholder="Search in youtube" name="search_query"/>
+        <br>
+        <button type="submit" value="search">search</button>
+    </form>
+    <hr>
+    <form action="https://www.google.com/search">
+        <label for="google">Google</label>
+        <input type="text" id="google" placeholder="search in google" name="q"/>
+        <br>
+        <button type="submit" value="search">search</button>
+    </form>
+    <hr>
+    <!-- checkbox -->
+    <form action="/server">
+        <input type="checkbox" name="age" id="age"/>
+        <label for="age">I am 18+</label>
+        <hr>
+        <div>
+            <input type="radio" name="fruit" for="Apple"/>
+            <label for="apple">Apple</label>
+            <input type="radio" name="fruit" for="Mango"/>
+            <label for="Mango">Mango</label>
+            <input type="radio" name="fruit" for="Grape"/>
+            <label for="Grape">Grape</label>
+            <br>
+            <button type="submit" value="fruit">
+                
+            </button>
+        </div>
+        <hr>
+        <div>
+            <select name="subject" id="subject">
+                <option>select your subject</option>
+                <option value="che">chemistry</option>
+                <option value="matg">Maths</option>
+    </select>
+    <button type="submit" value="subject">submit</button>
+               
+        </div>
+        <hr>
+        <div>
+            <label for="volume">select your volume</label>
+            <input type="range" 
+                id="vol"
+                min="0" 
+                max="100" 
+                name="vol"/>
+            <button>submit</button>
+        </div>
+        <hr>
+        <div>
+            <label for="feedback">Give your feedback</label>
+            <textarea id="feedback" name="feedback"></textarea>
+            <button>submit</button>
+        </div>
+
+    </form>
+</body>
+</html>
